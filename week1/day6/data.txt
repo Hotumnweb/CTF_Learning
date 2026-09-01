@@ -1,0 +1,5 @@
+admin
+root
+test
+guest
+flag{file_read_123}

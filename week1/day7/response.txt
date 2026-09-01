@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+user=admin&debug=true
+result1=flag{first_fl4g}&end
+some random data here
+result2=flag{s3c0nd_fl4g}
+footer info flag{third_one} end

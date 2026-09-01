@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom_test</title>
+</head>
+<body>
+    <h1 id="title">原始标题</h1>
+    <input type="text" id="name_input" placeholder="输入名字">
+    <button onclick="sayHello()">打招呼</button>
+    <p class="result"></p>
+
+    <script>
+        function sayHello() {
+            let name = document.querySelector("#name_input").value;
+            document.querySelector(".result").textContent = "你好，" + name;
+            document.querySelector("#title").textContent = "欢迎，" + name;
+        }
+    </script>
+</body>
+</html>

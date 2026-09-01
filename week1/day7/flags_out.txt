@@ -1,0 +1,3 @@
+flag{first_fl4g}
+flag{s3c0nd_fl4g}
+flag{third_one}
