@@ -1,0 +1,5 @@
+{
+  "name": "admin",
+  "age": "21",
+  "flag": "flag{python_json_to_dict}"
+}
